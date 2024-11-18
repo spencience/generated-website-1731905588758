@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <title>Home</title>
+                        <script src="https://cdn.tailwindcss.com"></script>
+                    </head>
+                    <body class="bg-white">
+                        <main class="flex flex-col justify-center items-center h-screen">
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto px-4 py-12">
+      <div class="text-center mb-12">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">$SPENCE</h1>
+        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-center">Welcome to the home of Spencience, the cryptocurrency that's changing the game.</p>
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">Learn More</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto px-4 py-12">
+      <div class="flex flex-wrap -mx-4">
+        <div class="w-full lg:w-1/2 px-4 mb-12">
+          <h2 class="title-font font-medium text-2xl text-gray-900">Why Spencience?</h2>
+          <p class="leading-relaxed text-lg text-gray-600">Spencience is more than just a cryptocurrency, it's a community-driven project that's pushing the boundaries of what's possible.</p>
+        </div>
+        <div class="w-full lg:w-1/2 px-4 mb-12">
+          <h2 class="title-font font-medium text-2xl text-gray-900">Our Mission</h2>
+          <p class="leading-relaxed text-lg text-gray-600">Our mission is to make Spencience accessible to everyone, regardless of their technical expertise or financial background.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto px-4 py-12">
+      <div class="text-center mb-12">
+        <h2 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Get Involved</h2>
+        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-center">Join our community and be a part of something special.</p>
+      </div>
+      <div id="interactive-demo">
+        <button onclick="toggleContent()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Join the Conversation</button>
+        <div id="toggle-content" class="hidden mt-4 p-4 bg-gray-100 rounded">
+          <p>Follow us on Twitter: <a href="#" target="_blank" rel="noopener noreferrer">@Spencience</a></p>
+          <p>Join our Discord community: <a href="#" target="_blank" rel="noopener noreferrer">https://discord.gg/Spencience</a></p>
+        </div>
+      </div>
+      <script>
+        function toggleContent() {
+          const content = document.getElementById('toggle-content');
+          content.classList.toggle('hidden');
+        }
+      </script>
+    </div>
+  </section>
+</main>
+                    </body>
+                    </html>
